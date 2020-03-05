@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CSS Template</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="quiz.js"></script>
+  <link rel = "stylesheet" type = "text/css" href = "index.css" />
+</head>
+<body>
+
+<header><!-- Titel på sidan -->
+  <h2>Learnity</h2>
+</header>
+
+<section id="nav"> <!-- Navigationssektion -->
+  <div class="container">
+
+      <div id="div_menu">
+            <a href="student.html"><p>Student</p></a>
+            <a href="courses.html"><p>Kurser</p></a>
+            <a href="quiz.html"><p>Quiz</p></a>
+            <a href="index.html"><p>Logga ut</p></a>
+      </div>
+  </div>
+</section>
+
+<section id="quiz_wrapper"> <!-- Quiz sektion -->
+          <h1>Här gör du quiz för dina kurser</h1>
+
+
+            <h4>Starta ditt quiz genom att trycka på knappen nedan.</h4>
+            <input type="button" class="buttonbox" value="Starta quiz" name="but_submit" id="but_submit" /> <!-- Knapp för att börja quiz -->
+
+
+
+          <div id="div_quiz"></div> <!-- div för att skriva ut quiz frågor i -->
+          <h3 id="message"></h3> <!-- Meddelande rubrik för resultat -->
+</section>
+
+<footer> <!-- Footer -->
+  <p>&copy; Learnity</p>
+</footer>
+
+</body>
+</html>

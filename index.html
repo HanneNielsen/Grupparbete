@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CSS Template</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="login.js"></script>
+  <link rel = "stylesheet" type = "text/css" href = "index.css" />
+</head>
+<body>
+
+<header>
+  <h2>Learnity</h2> <!-- Titel på sidan -->
+</header>
+
+<section>
+  <div class="container">
+
+      <div id="div_login"> <!-- Div för inloggningsuppgifter titel samt knapp -->
+          <h1>Logga in här</h1><br>
+          <div><img id="loaderIcon" src="media/5.gif" alt="loader"><p id="message"></p></div><br>
+          <div>
+              <input type="text" class="textbox" id="txt_uname" name="txt_uname" placeholder="Användarnamn" />
+          </div><br>
+          <div>
+              <input type="password" class="textbox" id="txt_pwd" name="txt_pwd" placeholder="Lösenord"/>
+          </div><br>
+          <div>
+              <input type="button" class="buttonbox" value="Logga in" name="but_submit" id="but_submit" />
+          </div>
+      </div>
+  </div>
+</section>
+
+<footer> <!-- Footer -->
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
